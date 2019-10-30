@@ -3,11 +3,12 @@ let posX, posY;
 let velX, velY;
 
 function setup() {
-  var canvasDiv = document.getElementById('myCanvas');
+  var canvasDiv = document.getElementById('ex2');
   var width = canvasDiv.offsetWidth;
-  var sketchCanvas = createCanvas(width,300);
+  var sketchCanvas = createCanvas(width,width*.75);
   console.log(sketchCanvas);
-  sketchCanvas.parent("myCanvas");
+  sketchCanvas.parent('ex2');
+
   posX = random(width);
   posY = 30;
   velX = random(-5,5);
