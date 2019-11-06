@@ -1,6 +1,4 @@
 
-let posX, posY;
-let velX, velY;
 
 function setup() {
   var canvasDiv = document.getElementById('ex1');
